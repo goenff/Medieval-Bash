@@ -1,12 +1,12 @@
-﻿Log file open, 09/02/17 15:27:04
+﻿Log file open, 09/04/17 11:29:58
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: Medevil_Bash
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1936564520) SRandInit(1936564520).
+LogInit: Display: RandInit(-982562556) SRandInit(-982562556).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.200743
+LogStats: Stats thread started at 4.133744
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,497 +108,799 @@ LogInit: Base directory: E:/Unreal Engine/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.02-20.27.04:992][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.02-20.27.04:992][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.02-20.27.05:028][  0]LogInit: Computer: ROBBIE-DESKTOP
-[2017.09.02-20.27.05:028][  0]LogInit: User: Robbie
-[2017.09.02-20.27.05:028][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.09.02-20.27.05:028][  0]LogInit: High frequency timer resolution =3.421334 MHz
-[2017.09.02-20.27.05:028][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.09.02-20.27.05:028][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.02-20.27.05:028][  0]LogMemory: Process Physical Memory: 278.97 MB used, 278.97 MB peak
-[2017.09.02-20.27.05:028][  0]LogMemory: Process Virtual Memory: 282.48 MB used, 282.48 MB peak
-[2017.09.02-20.27.05:028][  0]LogMemory: Physical Memory: 5047.37 MB used,  11294.81 MB free, 16342.18 MB total
-[2017.09.02-20.27.05:028][  0]LogMemory: Virtual Memory: 677.19 MB used,  11294.81 MB free, 134217728.00 MB total
-[2017.09.02-20.27.05:394][  0]LogInit: Using OS detected language (en-US).
-[2017.09.02-20.27.05:394][  0]LogInit: Using OS detected locale (en-US).
-[2017.09.02-20.27.05:640][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.02-20.27.08:723][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.02-20.27.08:740][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2017.09.02-20.27.08:740][  0]LogD3D11RHI:       3052/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2017.09.02-20.27.08:742][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.02-20.27.08:742][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.02-20.27.08:742][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.02-20.27.08:744][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.02-20.27.08:745][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.02-20.27.08:745][  0]LogWindows: EnumDisplayDevices:
-[2017.09.02-20.27.08:745][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:0 D:1)
-[2017.09.02-20.27.08:746][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2017.09.02-20.27.08:747][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.09.02-20.27.08:748][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.09.02-20.27.08:749][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.09.02-20.27.08:751][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.09.02-20.27.08:751][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.09.02-20.27.08:752][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2017.09.02-20.27.08:752][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
-[2017.09.02-20.27.08:752][  0]LogD3D11RHI:      Driver Date: 7-20-2017
-[2017.09.02-20.27.08:752][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.02-20.27.08:874][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.02-20.27.08:886][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.09.02-20.27.08:887][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (C:/Unreal Medevil bash/Medieval-Bash/Intermediate/Shaders/WorkingDirectory/10780/).
-[2017.09.02-20.27.08:887][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robbie/AppData/Local/Temp/UnrealShaderWorkingDir/91043CBC4D17166936F3A995D546D753/'.
-[2017.09.02-20.27.08:887][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.02-20.27.12:410][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.02-20.27.12:470][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.02-20.27.12:527][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.02-20.27.12:582][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.02-20.27.12:675][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.02-20.27.12:728][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.02-20.27.12:781][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.02-20.27.12:841][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.02-20.27.12:889][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.02-20.27.12:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.02-20.27.13:014][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.02-20.27.13:069][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.02-20.27.13:121][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.02-20.27.13:173][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.02-20.27.13:223][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.02-20.27.13:324][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.02-20.27.13:324][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.02-20.27.13:364][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.02-20.27.13:517][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.02-20.27.13:548][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.02-20.27.13:601][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.02-20.27.13:651][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.02-20.27.13:703][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.02-20.27.13:782][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.02-20.27.13:782][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.02-20.27.14:717][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.02-20.27.15:097][  0]LogDerivedDataCache: Loaded boot cache 0.38s 93MB C:/Users/Robbie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.02-20.27.15:097][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Robbie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.02-20.27.15:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Unreal Medevil bash/Medieval-Bash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.02-20.27.15:097][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.02-20.27.15:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Unreal Medevil bash/Medieval-Bash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.02-20.27.15:097][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.02-20.27.15:117][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.02-20.27.15:133][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robbie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.02-20.27.15:143][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.02-20.27.15:144][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.02-20.27.15:199][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.02-20.27.15:199][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.02-20.27.18:723][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
-[2017.09.02-20.27.19:000][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.02-20.27.20:531][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.02-20.27.20:582][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.02-20.27.20:582][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.02-20.27.20:582][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.02-20.27.20:582][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.02-20.27.20:582][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.02-20.27.20:584][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.02-20.27.21:549][  0]LogNetVersion: Medevil_Bash , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3665025374)
-[2017.09.02-20.27.21:873][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.045723 seconds
-[2017.09.02-20.27.21:879][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.02-20.27.21:879][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.09.02-20.27.21:879][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.02-20.27.21:961][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.02-20.27.40:696][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.02-20.27.40:756][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.02-20.27.41:836][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.02-20.27.42:363][  0]SourceControl: Source control is disabled
-[2017.09.02-20.27.44:187][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.02-20.27.44:514][  0]LogOcInput: OculusInput pre-init called
-[2017.09.02-20.27.44:900][  0]LogEngine: Initializing Engine...
-[2017.09.02-20.27.45:107][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.09.02-20.27.45:387][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.02-20.27.45:387][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.02-20.27.45:535][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.02-20.27.45:592][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.02-20.27.45:628][  0]LogInit: FAudioDevice initialized.
-[2017.09.02-20.27.45:830][  0]LogDerivedDataCache: Saved boot cache 0.20s 93MB C:/Users/Robbie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.02-20.27.45:838][  0]LogInit: Texture streaming: Enabled
-[2017.09.02-20.27.45:992][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.02-20.27.46:304][  0]LogInit: Transaction tracking system initialized
-[2017.09.02-20.27.46:670][  0]BlueprintLog: New page: Editor Load
-[2017.09.02-20.27.47:942][  0]LocalizationService: Localization service is disabled
-[2017.09.02-20.27.48:960][  0]LogConsoleResponse: Display: 
-[2017.09.02-20.27.51:054][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.02-20.27.51:054][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.02-20.27.51:054][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.02-20.27.52:167][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Medevil bash/Medieval-Bash/Content/' took 0.02s
-[2017.09.02-20.27.53:944][  0]Cmd: MAP LOAD FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.02-20.27.53:958][  0]LightingResults: New page: Lighting Build
-[2017.09.02-20.27.53:999][  0]MapCheck: New page: Map Check
-[2017.09.02-20.27.53:999][  0]LightingResults: New page: Lighting Build
-[2017.09.02-20.27.56:352][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.09.02-20.27.56:383][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.02-20.27.56:403][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.02-20.27.56:472][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.072ms to complete.
-[2017.09.02-20.27.56:472][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.529
-[2017.09.02-20.27.56:915][  0]LogCollectionManager: Loaded 0 collections in 0.001864 seconds
-[2017.09.02-20.27.57:005][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Collections/' took 0.01s
-[2017.09.02-20.27.57:005][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Medevil bash/Medieval-Bash/Content/Developers/Robbie/Collections/' took 0.01s
-[2017.09.02-20.27.57:005][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Medevil bash/Medieval-Bash/Content/Collections/' took 0.01s
-[2017.09.02-20.27.57:005][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.09.02-20.27.57:015][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2386 classes and 500 folders.
-[2017.09.02-20.27.57:079][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.09.02-20.27.58:623][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.09.02-20.27.58:699][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.09.02-20.27.58:738][  0]LogSlate: Took 0.014680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.02-20.27.58:747][  0]LogSlate: Took 0.007075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.02-20.27.58:764][  0]LogSlate: Took 0.012657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.02-20.27.59:014][  0]LogRenderer: Reallocating scene render targets to support 1260x656 Format 10 NumSamples 1 (Frame:1).
-[2017.09.02-20.27.59:231][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.09.02-20.27.59:231][  0]LogLoad: (Engine Initialization) Total time: 57.87 seconds
-[2017.09.02-20.27.59:231][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.02-20.27.59:231][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.02-20.27.59:231][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.02-20.27.59:591][  0]SourceControl: On branch master
-[2017.09.02-20.27.59:591][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.09.02-20.27.59:591][  0]SourceControl: Changes not staged for commit:
-[2017.09.02-20.27.59:591][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.09.02-20.27.59:591][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.09.02-20.27.59:591][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.09.02-20.27.59:591][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
-[2017.09.02-20.27.59:591][  0]SourceControl: 	modified:   Saved/Logs/Medevil_Bash.log
-[2017.09.02-20.27.59:591][  0]SourceControl: Untracked files:
-[2017.09.02-20.27.59:591][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.09.02-20.27.59:591][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-9FFFEA6B45201D950C5C0C805067D9B6/
-[2017.09.02-20.27.59:591][  0]SourceControl: 	Saved/Logs/Medevil_Bash-backup-2017.09.02-15.27.04.log
-[2017.09.02-20.27.59:591][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.09.02-20.27.59:591][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.02-20.27.59:694][  0]LogSlate: Took 0.026545 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.02-20.27.59:913][  1]LogAssetRegistry: Asset discovery search completed in 41.2111 seconds
-[2017.09.02-20.27.59:938][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.02-20.27.59:938][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
-[2017.09.02-20.28.31:899][823]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.02-20.28.31:938][823]LogAIModule: Creating AISystem for world Battle_areana
-[2017.09.02-20.28.32:009][823]Cmd: MAP LOAD FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.02-20.28.32:009][823]LightingResults: New page: Lighting Build
-[2017.09.02-20.28.32:009][823]LoadErrors: New page: Loading map: Battle_areana.umap
-[2017.09.02-20.28.32:010][823]MapCheck: New page: Map Check
-[2017.09.02-20.28.32:011][823]LightingResults: New page: Lighting Build
-[2017.09.02-20.28.32:034][823]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.02-20.28.32:055][823]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.02-20.28.32:126][823]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.766ms to complete.
-[2017.09.02-20.28.32:127][823]LogFileHelpers: Loading map 'Battle_areana' took 0.119
-[2017.09.02-20.28.44:142][959]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.09.02-20.34.52:629][592]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
-[2017.09.02-20.35.39:538][514]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0010 seconds. Added 1 classes and 0 folders.
-[2017.09.02-20.35.39:559][514]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.35.39:956][514]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.35.40:054][514]LogSlate: Took 0.014102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.02-20.35.41:858][548]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.35.41:858][548]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.35.41:858][548]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.36.15:991][979]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.36.16:003][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.09.02-20.36.17:852][ 75]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.36.17:852][ 75]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.36.17:852][ 75]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.36.19:742][201]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.36.19:757][201]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.09.02-20.36.20:795][246]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.36.20:795][246]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.36.20:795][246]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.36.32:521][ 37]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.36.32:538][ 37]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.09.02-20.36.33:557][ 81]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.36.33:557][ 81]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.36.33:557][ 81]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.36.36:814][288]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.36.36:833][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.09.02-20.36.37:857][336]MaterialEditorStats: Base pass shader: 79 instructions
-[2017.09.02-20.36.37:857][336]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.36.37:857][336]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.36.43:833][712]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.36.43:850][712]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.09.02-20.36.44:877][760]MaterialEditorStats: Base pass shader: 79 instructions
-[2017.09.02-20.36.44:877][760]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.36.44:877][760]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.37.03:430][924]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.37.03:449][924]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.09.02-20.37.04:474][971]MaterialEditorStats: Base pass shader: 79 instructions
-[2017.09.02-20.37.04:474][971]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.37.04:474][971]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.37.24:408][294]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.37.24:425][294]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.37.26:096][387]MaterialEditorStats: Base pass shader: 79 instructions
-[2017.09.02-20.37.26:096][387]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.37.26:096][387]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.37.30:692][700]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.37.31:699][748]MaterialEditorStats: Base pass shader: 84 instructions
-[2017.09.02-20.37.31:699][748]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.37.31:699][748]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.37.34:897][959]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.37.35:897][  8]MaterialEditorStats: Base pass shader: 84 instructions
-[2017.09.02-20.37.35:897][  8]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.37.35:897][  8]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.37.38:949][226]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.37.39:942][276]MaterialEditorStats: Base pass shader: 84 instructions
-[2017.09.02-20.37.39:942][276]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.37.39:942][276]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.37.44:250][551]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.37.45:248][599]MaterialEditorStats: Base pass shader: 84 instructions
-[2017.09.02-20.37.45:248][599]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.37.45:248][599]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.38.11:220][275]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.38.11:234][275]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.38.12:613][336]MaterialEditorStats: Base pass shader: 84 instructions
-[2017.09.02-20.38.12:613][336]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.38.12:613][336]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.38.16:670][607]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.38.17:724][658]MaterialEditorStats: Base pass shader: 84 instructions
-[2017.09.02-20.38.17:724][658]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.38.17:724][658]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.38.19:601][783]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.38.20:665][831]MaterialEditorStats: Base pass shader: 84 instructions
-[2017.09.02-20.38.20:665][831]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.38.20:665][831]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.38.51:056][833]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.02-20.39.00:113][860]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battle_areana' took 0.035
-[2017.09.02-20.39.00:115][860]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/base_floor] ([1] browsable assets)...
-[2017.09.02-20.39.00:139][860]OBJ SavePackage:     Rendered thumbnail for [Material /Game/base_floor.base_floor]
-[2017.09.02-20.39.00:139][860]OBJ SavePackage: Finished generating thumbnails for package [/Game/base_floor]
-[2017.09.02-20.39.00:139][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_floor" FILE="C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/base_floor_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.02-20.39.00:155][860]LogSavePackage: Save=13.85ms
-[2017.09.02-20.39.00:155][860]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/base_floor_Auto112D97CC74C0933B7716AD1B1CA37EFCA.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/base_floor_Auto1.uasset'
-[2017.09.02-20.39.00:157][860]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/base_floor_Auto1.uasset
-[2017.09.02-20.39.00:157][860]LogFileHelpers: Auto-saving content packages took 0.043
-[2017.09.02-20.41.02:660][274]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.41.03:804][319]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.41.04:597][350]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.41.06:062][432]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.41.06:062][432]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.41.06:062][432]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.42.04:784][625]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.42.04:885][626]LogSlate: Took 0.007894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.09.02-20.42.06:070][685]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.42.06:070][685]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.42.06:070][685]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.42.12:860][776]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.42.12:872][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.42.14:237][845]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.42.14:237][845]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.42.14:237][845]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.42.30:225][957]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.42.31:190][999]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.42.31:190][999]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.42.31:190][999]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.42.34:707][233]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.42.35:694][276]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.42.35:694][276]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.42.35:694][276]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.42.39:473][503]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.42.40:460][543]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.09.02-20.42.40:460][543]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.42.40:460][543]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.42.59:323][702]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.42.59:338][702]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.43.00:395][746]MaterialEditorStats: Base pass shader: 80 instructions
-[2017.09.02-20.43.00:395][746]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.43.00:395][746]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.43.04:040][970]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.43.04:054][970]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.43.05:054][ 11]MaterialEditorStats: Base pass shader: 80 instructions
-[2017.09.02-20.43.05:054][ 11]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.43.05:054][ 11]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.43.06:434][112]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.43.06:452][112]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.43.07:453][153]MaterialEditorStats: Base pass shader: 80 instructions
-[2017.09.02-20.43.07:453][153]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.43.07:453][153]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.43.10:055][365]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.43.10:072][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.43.11:215][420]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.43.11:232][420]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.43.12:234][465]MaterialEditorStats: Base pass shader: 80 instructions
-[2017.09.02-20.43.12:234][465]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.43.12:234][465]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.43.14:995][656]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.43.15:013][656]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.43.16:005][699]MaterialEditorStats: Base pass shader: 80 instructions
-[2017.09.02-20.43.16:006][699]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.43.16:006][699]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.43.18:885][920]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.43.18:900][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.43.23:485][248]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.43.23:504][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.43.24:487][284]MaterialEditorStats: Base pass shader: 80 instructions
-[2017.09.02-20.43.24:487][284]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.43.24:487][284]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.43.24:812][306]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.43.24:827][306]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.43.25:803][343]MaterialEditorStats: Base pass shader: 80 instructions
-[2017.09.02-20.43.25:803][343]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.43.25:803][343]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.47.33:652][375]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.47.34:959][439]MaterialEditorStats: Base pass shader: 81 instructions
-[2017.09.02-20.47.34:959][439]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.47.34:959][439]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.47.37:315][587]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.47.38:322][630]MaterialEditorStats: Base pass shader: 85 instructions
-[2017.09.02-20.47.38:323][630]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.47.38:323][630]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.48.05:703][371]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.48.05:722][371]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.48.10:108][668]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.48.10:123][668]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.48.11:166][707]MaterialEditorStats: Base pass shader: 85 instructions
-[2017.09.02-20.48.11:166][707]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.48.11:166][707]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.48.15:696][ 19]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.48.15:716][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.48.16:745][ 62]MaterialEditorStats: Base pass shader: 85 instructions
-[2017.09.02-20.48.16:745][ 62]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.48.16:745][ 62]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.48.18:079][152]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.48.18:097][152]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.48.19:212][193]MaterialEditorStats: Base pass shader: 85 instructions
-[2017.09.02-20.48.19:212][193]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.48.19:212][193]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.48.19:678][222]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.48.19:694][222]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.02-20.48.20:738][264]MaterialEditorStats: Base pass shader: 85 instructions
-[2017.09.02-20.48.20:738][264]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.48.20:738][264]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.02-20.48.44:063][733]LogMaterialEditor: Saving and Compiling material base_floor
-[2017.09.02-20.48.44:565][733]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.48.44:617][733]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.48.44:645][733]LogMaterial: Missing cached shader map for material base_floor, compiling. 
-[2017.09.02-20.48.44:707][733]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy base_floor, compiling. 
-[2017.09.02-20.48.45:679][733]TextureStreamingBuild: Display: Compiling optional shaders took 1.003 seconds.
-[2017.09.02-20.48.47:347][733]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.02-20.48.47:380][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_floor" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/base_floor.uasset" SILENT=true
-[2017.09.02-20.48.47:396][733]LogSavePackage: Save=13.70ms
-[2017.09.02-20.48.47:396][733]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/base_floorA44216DA47800149DA372FBF636FE1B1.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/base_floor.uasset'
-[2017.09.02-20.48.47:399][733]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/base_floor.uasset
-[2017.09.02-20.48.47:596][733]MaterialEditorStats: Base pass shader: 85 instructions
-[2017.09.02-20.48.47:596][733]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.02-20.48.47:596][733]MaterialEditorStats: Texture samplers: 2/16
-[2017.09.02-20.50.51:524][514]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
-[2017.09.02-20.50.51:536][514]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
-[2017.09.02-20.50.58:656][  3]Cmd: TRANSACTION UNDO
-[2017.09.02-20.50.58:656][  3]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2017.09.02-20.51.41:706][913]Cmd: TRANSACTION UNDO
-[2017.09.02-20.51.41:706][913]LogEditorTransaction: Undo Landscape Editing: Noise
-[2017.09.02-20.51.53:940][973]Cmd: TRANSACTION UNDO
-[2017.09.02-20.51.53:940][973]LogEditorTransaction: Undo Landscape Editing: Noise
-[2017.09.02-20.51.53:962][973]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
-[2017.09.02-20.52.56:792][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Battle_areana" FILE="C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/Maps/Battle_areana_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2017.09.02-20.52.56:822][653]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
-[2017.09.02-20.52.57:015][653]LogSavePackage: Save=217.73ms
-[2017.09.02-20.52.57:015][653]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Battle_areana_Auto2C1A9DA054DC58258DAB4E78A42245EC1.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/Maps/Battle_areana_Auto2.umap'
-[2017.09.02-20.52.57:017][653]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/Maps/Battle_areana_Auto2.umap
-[2017.09.02-20.52.57:019][653]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battle_areana' took 0.238
-[2017.09.02-20.52.57:019][653]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
-[2017.09.02-20.53.34:783][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
-[2017.09.02-20.53.38:211][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.09.02-20.53.39:746][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.09.02-20.53.40:866][437]Cmd: DELETE
-[2017.09.02-20.53.40:866][437]Cmd: ACTOR DELETE
-[2017.09.02-20.53.41:032][437]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.09.02-20.53.41:042][437]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.09.02-20.53.42:099][538]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.09.02-20.53.45:337][796]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
-[2017.09.02-20.53.47:875][  9]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.09.02-20.53.49:140][124]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.09.02-20.55.15:931][612]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.02-20.55.16:247][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.02-20.55.16:342][612]PIE: New page: PIE session: Battle_areana (Sep 2, 2017, 10:55:16 AM)
-[2017.09.02-20.55.16:362][612]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battle_areana
-[2017.09.02-20.55.16:390][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027716s)
-[2017.09.02-20.55.16:391][612]LogAIModule: Creating AISystem for world Battle_areana
-[2017.09.02-20.55.16:391][612]LogPlayLevel: PIE: World Init took: (0.000882s)
-[2017.09.02-20.55.16:402][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battle_areana.Battle_areana to /Game/Maps/UEDPIE_0_Battle_areana.Battle_areana (0.039914s)
-[2017.09.02-20.55.16:483][612]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.02-20.55.16:506][612]LogInit: FAudioDevice initialized.
-[2017.09.02-20.55.16:584][612]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.09.02-20.55.16:710][612]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battle_areana.Battle_areana up for play (max tick rate 0) at 2017.09.02-15.55.16
-[2017.09.02-20.55.16:748][612]LogWorld: Bringing up level for play took: 0.041298
-[2017.09.02-20.55.16:938][612]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
-[2017.09.02-20.55.17:015][612]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battle_areana 1.35
-[2017.09.02-20.56.12:742][ 10]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.09.02-20.57.23:605][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Battle_areana" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.09.02-20.57.23:643][961]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
-[2017.09.02-20.57.23:838][961]LogSavePackage: Save=220.73ms
-[2017.09.02-20.57.23:838][961]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Battle_areanaEDFAE49348E95917E9D017B84F25F64F.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap'
-[2017.09.02-20.57.23:843][961]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap
-[2017.09.02-20.57.23:858][961]LogFileHelpers: Saving map 'Battle_areana' took 0.346
-[2017.09.02-20.57.29:238][418]SourceControl: fatal: E:/Unreal Engine/UE_4.17/Engine/Content/: 'E:/Unreal Engine/UE_4.17/Engine/Content/' is outside repository
-[2017.09.02-20.57.42:538][418]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.09.02-20.57.42:678][418]SourceControl: [master 29b6b9a] updating level
-[2017.09.02-20.57.42:678][418]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
-[2017.09.02-20.57.42:678][418]SourceControl:  create mode 100644 Content/base_floor.uasset
-[2017.09.02-20.57.42:694][418]SourceControl: Commited [master 29b6b9a] updating level.
-[2017.09.02-20.58.04:693][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Battle_areana" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.09.02-20.58.04:886][205]LogSavePackage: Save=177.55ms
-[2017.09.02-20.58.04:886][205]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Battle_areana43AB678D4E1981C388320CAF01492886.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap'
-[2017.09.02-20.58.04:888][205]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap
-[2017.09.02-20.58.04:998][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Battle_areana_BuiltData" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana_BuiltData.uasset" SILENT=true
-[2017.09.02-20.58.05:012][205]LogSavePackage: Save=8.55ms
-[2017.09.02-20.58.05:012][205]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Battle_areana_BuiltData67DB9157400AA3ACA78F1683E45129AD.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana_BuiltData.uasset'
-[2017.09.02-20.58.05:014][205]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana_BuiltData.uasset
-[2017.09.02-20.58.07:968][464]Cmd: QUIT_EDITOR
-[2017.09.02-20.58.08:713][464]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.02-20.58.08:721][464]LogExit: Preparing to exit.
-[2017.09.02-20.58.09:341][464]LogExit: Editor shut down
-[2017.09.02-20.58.09:344][464]LogExit: Transaction tracking system shut down
-[2017.09.02-20.58.09:498][464]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.09.02-20.58.09:498][464]LogDirectoryWatcher: A directory notification for 'C:/Unreal Medevil bash/Medieval-Bash/Content/' was aborted.
-[2017.09.02-20.58.09:498][464]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.09.02-20.58.09:498][464]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.09.02-20.58.09:498][464]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.09.02-20.58.09:552][464]LogExit: Object subsystem successfully closed.
-[2017.09.02-20.58.09:574][464]LogD3D11RHI: Shutdown
-[2017.09.02-20.58.09:574][464]LogD3D11RHI: CleanupD3DDevice
-[2017.09.02-20.58.09:709][464]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.09.02-20.58.09:720][464]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
-[2017.09.02-20.58.09:720][464]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
-[2017.09.02-20.58.09:720][464]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2017.09.02-20.58.09:720][464]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2017.09.02-20.58.09:720][464]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2017.09.02-20.58.09:720][464]LogDirectoryWatcher: A directory notification for 'E:/Unreal Engine/UE_4.17/FeaturePacks/' was aborted.
-[2017.09.02-20.58.09:721][464]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2017.09.02-20.58.09:721][464]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2017.09.02-20.58.09:721][464]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2017.09.02-20.58.09:721][464]LogDirectoryWatcher: A directory notification for 'C:/Unreal Medevil bash/Medieval-Bash/Content/Collections/' was aborted.
-[2017.09.02-20.58.09:722][464]LogDirectoryWatcher: A directory notification for 'C:/Unreal Medevil bash/Medieval-Bash/Content/Developers/Robbie/Collections/' was aborted.
-[2017.09.02-20.58.09:722][464]LogDirectoryWatcher: A directory notification for 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Collections/' was aborted.
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2017.09.02-20.58.09:722][464]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module Media (477)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2017.09.02-20.58.09:723][464]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.04-16.29.59:791][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.04-16.29.59:791][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.04-16.29.59:850][  0]LogInit: Computer: ROBBIE-DESKTOP
+[2017.09.04-16.29.59:850][  0]LogInit: User: Robbie
+[2017.09.04-16.29.59:850][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.04-16.29.59:850][  0]LogInit: High frequency timer resolution =3.421334 MHz
+[2017.09.04-16.29.59:851][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.09.04-16.29.59:851][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.04-16.29.59:851][  0]LogMemory: Process Physical Memory: 279.25 MB used, 279.25 MB peak
+[2017.09.04-16.29.59:851][  0]LogMemory: Process Virtual Memory: 282.52 MB used, 282.52 MB peak
+[2017.09.04-16.29.59:851][  0]LogMemory: Physical Memory: 4815.94 MB used,  11526.24 MB free, 16342.18 MB total
+[2017.09.04-16.29.59:851][  0]LogMemory: Virtual Memory: 677.19 MB used,  11526.24 MB free, 134217728.00 MB total
+[2017.09.04-16.30.00:619][  0]LogInit: Using OS detected language (en-US).
+[2017.09.04-16.30.00:619][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.04-16.30.00:950][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.04-16.30.04:549][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.04-16.30.04:568][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.09.04-16.30.04:568][  0]LogD3D11RHI:       3052/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.09.04-16.30.04:570][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.04-16.30.04:570][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.04-16.30.04:570][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.04-16.30.04:573][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.04-16.30.04:573][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.04-16.30.04:573][  0]LogWindows: EnumDisplayDevices:
+[2017.09.04-16.30.04:573][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.09.04-16.30.04:575][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.09.04-16.30.04:576][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.04-16.30.04:577][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.04-16.30.04:578][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.04-16.30.04:580][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.04-16.30.04:580][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.09.04-16.30.04:581][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.09.04-16.30.04:581][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.09.04-16.30.04:581][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.09.04-16.30.04:581][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.04-16.30.04:622][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.04-16.30.04:895][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.09.04-16.30.04:988][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (C:/Unreal Medevil bash/Medieval-Bash/Intermediate/Shaders/WorkingDirectory/12456/).
+[2017.09.04-16.30.04:988][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robbie/AppData/Local/Temp/UnrealShaderWorkingDir/0A82E8CF4E28CCD1D348BBA1B977AE9F/'.
+[2017.09.04-16.30.04:990][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.04-16.30.09:434][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.04-16.30.09:493][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.04-16.30.09:546][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.04-16.30.09:608][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.04-16.30.09:718][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.04-16.30.09:776][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.04-16.30.09:832][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.04-16.30.09:896][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.04-16.30.09:941][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.04-16.30.10:015][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.04-16.30.10:068][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.04-16.30.10:120][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.04-16.30.10:174][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.04-16.30.10:226][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.04-16.30.10:284][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.04-16.30.10:398][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.04-16.30.10:398][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.04-16.30.10:437][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.04-16.30.10:604][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.04-16.30.10:637][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.04-16.30.10:689][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.04-16.30.10:746][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.04-16.30.10:806][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.04-16.30.10:892][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.04-16.30.10:892][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.04-16.30.12:055][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.04-16.30.12:535][  0]LogDerivedDataCache: Loaded boot cache 0.48s 93MB C:/Users/Robbie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.04-16.30.12:535][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Robbie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.04-16.30.12:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Unreal Medevil bash/Medieval-Bash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.04-16.30.12:536][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.04-16.30.12:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Unreal Medevil bash/Medieval-Bash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.04-16.30.12:536][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.04-16.30.12:625][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.04-16.30.12:638][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robbie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.04-16.30.12:683][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.04-16.30.12:807][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.04-16.30.12:902][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.04-16.30.12:911][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.04-16.30.19:322][  0]LogAssetRegistry: FAssetRegistry took 0.0459 seconds to start up
+[2017.09.04-16.30.20:699][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.04-16.30.25:177][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.04-16.30.25:251][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.04-16.30.25:271][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.04-16.30.25:271][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.04-16.30.25:271][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.04-16.30.25:271][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.04-16.30.25:459][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.04-16.30.28:251][  0]LogNetVersion: Medevil_Bash , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3665025374)
+[2017.09.04-16.30.29:708][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.099442 seconds
+[2017.09.04-16.30.29:726][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.04-16.30.29:726][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.04-16.30.29:726][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.04-16.30.29:817][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.04-16.30.50:444][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.04-16.30.50:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.04-16.30.52:240][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.04-16.30.53:239][  0]SourceControl: Source control is disabled
+[2017.09.04-16.30.55:231][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.04-16.30.55:576][  0]LogOcInput: OculusInput pre-init called
+[2017.09.04-16.30.56:425][  0]LogEngine: Initializing Engine...
+[2017.09.04-16.30.56:703][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.09.04-16.30.57:526][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.04-16.30.57:526][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.04-16.30.58:061][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.04-16.30.58:186][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.04-16.30.58:243][  0]LogInit: FAudioDevice initialized.
+[2017.09.04-16.30.58:354][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/Robbie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.04-16.30.58:365][  0]LogInit: Texture streaming: Enabled
+[2017.09.04-16.30.58:610][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.04-16.30.59:175][  0]LogInit: Transaction tracking system initialized
+[2017.09.04-16.30.59:732][  0]BlueprintLog: New page: Editor Load
+[2017.09.04-16.31.01:619][  0]LocalizationService: Localization service is disabled
+[2017.09.04-16.31.03:176][  0]LogConsoleResponse: Display: 
+[2017.09.04-16.31.06:579][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Medevil bash/Medieval-Bash/Content/' took 0.02s
+[2017.09.04-16.31.06:579][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.04-16.31.06:579][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.04-16.31.06:650][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.04-16.31.11:589][  0]Cmd: MAP LOAD FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.04-16.31.11:633][  0]LightingResults: New page: Lighting Build
+[2017.09.04-16.31.11:864][  0]MapCheck: New page: Map Check
+[2017.09.04-16.31.11:864][  0]LightingResults: New page: Lighting Build
+[2017.09.04-16.31.16:065][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.04-16.31.16:725][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.04-16.31.16:797][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.04-16.31.16:877][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.909ms to complete.
+[2017.09.04-16.31.16:877][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.303
+[2017.09.04-16.31.18:410][  0]LogCollectionManager: Loaded 0 collections in 0.002745 seconds
+[2017.09.04-16.31.18:585][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Collections/' took 0.01s
+[2017.09.04-16.31.18:585][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Medevil bash/Medieval-Bash/Content/Developers/Robbie/Collections/' took 0.01s
+[2017.09.04-16.31.18:585][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Medevil bash/Medieval-Bash/Content/Collections/' took 0.01s
+[2017.09.04-16.31.18:585][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.04-16.31.18:597][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2386 classes and 500 folders.
+[2017.09.04-16.31.18:700][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.09.04-16.31.20:382][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.09.04-16.31.20:490][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.09.04-16.31.20:895][  0]LogSlate: Took 0.009933 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.04-16.31.20:914][  0]LogSlate: Took 0.009618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.04-16.31.20:982][  0]LogSlate: Took 0.015822 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.04-16.31.21:498][  0]LogRenderer: Reallocating scene render targets to support 1260x656 Format 10 NumSamples 1 (Frame:1).
+[2017.09.04-16.31.22:089][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.09.04-16.31.22:089][  0]LogLoad: (Engine Initialization) Total time: 97.74 seconds
+[2017.09.04-16.31.22:089][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.04-16.31.22:089][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.04-16.31.22:089][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.04-16.31.22:517][  0]SourceControl: On branch master
+[2017.09.04-16.31.22:517][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.09.04-16.31.22:517][  0]SourceControl: Changes not staged for commit:
+[2017.09.04-16.31.22:517][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.09.04-16.31.22:517][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.04-16.31.22:517][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.04-16.31.22:517][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.04-16.31.22:517][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.04-16.31.22:517][  0]SourceControl: 	modified:   Saved/Logs/Medevil_Bash.log
+[2017.09.04-16.31.22:517][  0]SourceControl: Untracked files:
+[2017.09.04-16.31.22:517][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.04-16.31.22:517][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-7A9DB7D44ADCCD7F485EFCA44B941154/
+[2017.09.04-16.31.22:517][  0]SourceControl: 	Saved/Logs/Medevil_Bash-backup-2017.09.04-11.29.58.log
+[2017.09.04-16.31.22:517][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.04-16.31.22:517][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.04-16.31.22:628][  0]LogSlate: Took 0.015882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.04-16.31.23:434][  3]LogAssetRegistry: Asset discovery search completed in 64.1347 seconds
+[2017.09.04-16.31.23:436][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.04-16.31.23:436][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2017.09.04-16.34.01:718][449]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.04-16.34.02:022][449]LogAIModule: Creating AISystem for world Battle_areana
+[2017.09.04-16.34.02:086][449]Cmd: MAP LOAD FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.04-16.34.02:086][449]LightingResults: New page: Lighting Build
+[2017.09.04-16.34.02:087][449]LoadErrors: New page: Loading map: Battle_areana.umap
+[2017.09.04-16.34.02:099][449]MapCheck: New page: Map Check
+[2017.09.04-16.34.02:099][449]LightingResults: New page: Lighting Build
+[2017.09.04-16.34.02:262][449]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.04-16.34.02:303][449]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.04-16.34.02:371][449]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.225ms to complete.
+[2017.09.04-16.34.02:371][449]LogFileHelpers: Loading map 'Battle_areana' took 0.286
+[2017.09.04-16.34.55:189][766]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.09.04-16.36.07:002][334]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.04-16.36.16:963][458]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2017.09.04-16.39.48:372][372]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0011 seconds. Added 1 classes and 0 folders.
+[2017.09.04-16.39.48:389][372]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.39.48:613][372]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.39.48:629][372]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.39.48:702][372]LogSlate: Took 0.017709 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.04-16.39.49:935][406]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.09.04-16.39.49:935][406]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.04-16.39.49:935][406]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.04-16.40.56:624][385]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.40.56:636][385]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.04-16.40.56:641][385]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.40.56:680][385]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.04-16.40.58:095][448]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.09.04-16.40.58:095][448]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.04-16.40.58:095][448]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.04-16.41.39:756][629]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.41.39:769][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.04-16.41.40:985][687]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.09.04-16.41.40:985][687]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.04-16.41.40:985][687]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.04-16.42.48:945][353]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.42.48:959][353]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.42.50:219][413]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.09.04-16.42.50:219][413]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.04-16.42.50:219][413]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.04-16.42.53:453][652]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.42.54:400][697]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.09.04-16.42.54:400][697]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.04-16.42.54:400][697]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.04-16.42.56:037][811]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.42.56:993][855]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.09.04-16.42.56:993][855]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.04-16.42.56:993][855]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.04-16.43.26:995][664]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2017.09.04-16.43.27:067][664]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2017.09.04-16.43.27:082][664]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2017.09.04-16.43.27:122][664]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_55, compiling. 
+[2017.09.04-16.43.27:126][664]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.09.04-16.43.27:133][664]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_58, compiling. 
+[2017.09.04-16.43.27:138][664]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_59, compiling. 
+[2017.09.04-16.43.27:143][664]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2017.09.04-16.43.27:149][664]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.09.04-16.43.27:153][664]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.09.04-16.43.28:733][727]MaterialEditorStats: Base pass shader: 110 instructions
+[2017.09.04-16.43.28:733][727]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.04-16.43.28:733][727]MaterialEditorStats: Texture samplers: 6/16
+[2017.09.04-16.43.28:733][727]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.04-16.45.26:186][404]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.45.27:550][455]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.09.04-16.45.27:550][455]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.04-16.45.27:550][455]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.04-16.46.11:325][392]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2017.09.04-16.46.11:390][392]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2017.09.04-16.46.11:412][392]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2017.09.04-16.46.11:451][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.04-16.46.11:458][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.09.04-16.46.11:462][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2017.09.04-16.46.11:468][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_63, compiling. 
+[2017.09.04-16.46.11:473][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_64, compiling. 
+[2017.09.04-16.46.11:478][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_65, compiling. 
+[2017.09.04-16.46.11:484][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_21, compiling. 
+[2017.09.04-16.46.11:490][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.04-16.46.11:496][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.09.04-16.46.14:247][436]MaterialEditorStats: Base pass shader: 118 instructions
+[2017.09.04-16.46.14:247][436]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.04-16.46.14:247][436]MaterialEditorStats: Texture samplers: 7/16
+[2017.09.04-16.46.14:247][436]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.04-16.46.38:599][783]LogSlate: Took 0.017378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.04-16.47.28:410][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Battle_areana" FILE="C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/Maps/Battle_areana_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.04-16.47.28:624][338]LogSavePackage: Save=207.03ms
+[2017.09.04-16.47.28:624][338]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Battle_areana_Auto1C22712C64304770F2584EF91DDE62F6D.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/Maps/Battle_areana_Auto1.umap'
+[2017.09.04-16.47.28:633][338]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/Maps/Battle_areana_Auto1.umap
+[2017.09.04-16.47.28:652][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battle_areana' took 0.267
+[2017.09.04-16.47.28:652][338]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.267
+[2017.09.04-16.47.28:655][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/Sand] ([1] browsable assets)...
+[2017.09.04-16.47.28:674][338]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/Sand.Sand]
+[2017.09.04-16.47.28:674][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/Sand]
+[2017.09.04-16.47.28:674][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/Sand" FILE="C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/StarterContent/Materials/Sand_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.04-16.47.28:704][338]LogSavePackage: Save=28.74ms
+[2017.09.04-16.47.28:705][338]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Sand_Auto145D45D9240F37B64C2596AB47C55D9B1.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/StarterContent/Materials/Sand_Auto1.uasset'
+[2017.09.04-16.47.28:707][338]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/StarterContent/Materials/Sand_Auto1.uasset
+[2017.09.04-16.47.28:707][338]LogFileHelpers: Auto-saving content packages took 0.054
+[2017.09.04-16.49.32:527][111]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.49.32:569][111]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.49.32:593][111]LogMaterial: Missing cached shader map for material Sand, compiling. 
+[2017.09.04-16.49.32:662][111]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sand, compiling. 
+[2017.09.04-16.49.33:496][111]TextureStreamingBuild: Display: Compiling optional shaders took 0.869 seconds.
+[2017.09.04-16.57.29:289][882]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battle_areana' took 0.010
+[2017.09.04-16.57.29:291][882]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/Sand] ([1] browsable assets)...
+[2017.09.04-16.57.29:312][882]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/Sand.Sand]
+[2017.09.04-16.57.29:312][882]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/Sand]
+[2017.09.04-16.57.29:312][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/Sand" FILE="C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/StarterContent/Materials/Sand_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.04-16.57.29:328][882]LogSavePackage: Save=14.02ms
+[2017.09.04-16.57.29:328][882]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Sand_Auto2FABC66324A5966CC5090F48E9F09665B.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/StarterContent/Materials/Sand_Auto2.uasset'
+[2017.09.04-16.57.29:331][882]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/StarterContent/Materials/Sand_Auto2.uasset
+[2017.09.04-16.57.29:331][882]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.09.04-17.02.41:062][435]SourceControl: On branch master
+[2017.09.04-17.02.41:062][435]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.09.04-17.02.41:062][435]SourceControl: Changes not staged for commit:
+[2017.09.04-17.02.41:062][435]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.09.04-17.02.41:062][435]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.04-17.02.41:062][435]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.04-17.02.41:062][435]SourceControl: 	modified:   Saved/Autosaves/Game/Maps/Battle_areana_Auto1.umap
+[2017.09.04-17.02.41:062][435]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.09.04-17.02.41:062][435]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.04-17.02.41:062][435]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.04-17.02.41:062][435]SourceControl: 	modified:   Saved/Logs/Medevil_Bash.log
+[2017.09.04-17.02.41:062][435]SourceControl: Untracked files:
+[2017.09.04-17.02.41:062][435]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.04-17.02.41:062][435]SourceControl: 	Saved/Autosaves/Game/StarterContent/
+[2017.09.04-17.02.41:062][435]SourceControl: 	Saved/Backup/Battle_areana_2017-09-04-11-47-28.umap
+[2017.09.04-17.02.41:062][435]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-7A9DB7D44ADCCD7F485EFCA44B941154/
+[2017.09.04-17.02.41:062][435]SourceControl: 	Saved/Logs/Medevil_Bash-backup-2017.09.04-11.29.58.log
+[2017.09.04-17.02.41:062][435]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.04-17.02.41:875][435]LogMetaData: Removing '/Game/Main_Menu.SKEL_Main_Menu_C' ref from Metadata '/Game/Menu.PackageMetaData'
+[2017.09.04-17.02.41:885][435]LogMetaData: Removing '/Game/Main_Menu.Main_Menu_C' ref from Metadata '/Game/Menu.PackageMetaData'
+[2017.09.04-17.02.41:885][435]LogMetaData: Removing '/Game/Main_Menu.Main_Menu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Menu.PackageMetaData'
+[2017.09.04-17.02.41:885][435]LogMetaData: Removing '/Game/Main_Menu.Main_Menu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Menu.PackageMetaData'
+[2017.09.04-17.02.41:885][435]LogMetaData: Removing '/Game/Main_Menu.Main_Menu:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Menu.PackageMetaData'
+[2017.09.04-17.02.41:993][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main_Menu" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/Main_Menu.uasset" SILENT=true
+[2017.09.04-17.02.42:041][435]LogSavePackage: Save=47.68ms
+[2017.09.04-17.02.42:041][435]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Main_MenuEB14FB7D4DED0D694C6761B0BFBD847D.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/Main_Menu.uasset'
+[2017.09.04-17.02.42:044][435]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/Main_Menu.uasset
+[2017.09.04-17.04.46:540][155]LogSlate: Took 0.011180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.04-17.04.54:719][155]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2017.09.04-17.05.54:035][871]LogSlate: Took 0.011509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.04-17.06.30:123][437]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.04-17.06.38:181][959]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.04-17.07.10:532][199]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.04-17.08.09:979][469]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battle_areana' took 0.014
+[2017.09.04-17.08.09:992][469]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2017.09.04-17.08.10:008][469]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2017.09.04-17.08.10:008][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2017.09.04-17.08.10:085][469]LogSavePackage: Save=71.26ms
+[2017.09.04-17.08.10:085][469]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/ThirdPersonCharacter_Auto303E4EDA7403B848A122A9A8E43B5D176.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2017.09.04-17.08.10:087][469]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset
+[2017.09.04-17.08.10:088][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD] ([1] browsable assets)...
+[2017.09.04-17.08.10:088][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD]
+[2017.09.04-17.08.10:088][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.09.04-17.08.10:097][469]LogSavePackage: Save=7.73ms
+[2017.09.04-17.08.10:097][469]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/HUD_Auto389E10AFA4645486C4E2BFC99A45F9EA4.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/HUD_Auto3.uasset'
+[2017.09.04-17.08.10:098][469]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/HUD_Auto3.uasset
+[2017.09.04-17.08.10:099][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Pause_Menu] ([1] browsable assets)...
+[2017.09.04-17.08.10:099][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pause_Menu]
+[2017.09.04-17.08.10:099][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pause_Menu" FILE="C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/Pause_Menu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.09.04-17.08.10:108][469]LogSavePackage: Save=7.63ms
+[2017.09.04-17.08.10:108][469]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Pause_Menu_Auto3399AE33744DA5C3268F1B8BF7E9E6AC8.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/Pause_Menu_Auto3.uasset'
+[2017.09.04-17.08.10:109][469]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/Pause_Menu_Auto3.uasset
+[2017.09.04-17.08.10:109][469]LogFileHelpers: Auto-saving content packages took 0.129
+[2017.09.04-17.18.45:111][249]LogEditorTransaction: Undo Add Node
+[2017.09.04-17.19.56:131][307]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.04-17.20.24:043][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battle_areana' took 0.015
+[2017.09.04-17.20.24:045][542]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2017.09.04-17.20.24:063][542]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2017.09.04-17.20.24:063][542]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2017.09.04-17.20.24:148][542]LogSavePackage: Save=78.24ms
+[2017.09.04-17.20.24:148][542]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/ThirdPersonCharacter_Auto4AC3F18484A498F8C30C026B6DAFE4AE6.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
+[2017.09.04-17.20.24:150][542]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset
+[2017.09.04-17.20.24:150][542]LogFileHelpers: Auto-saving content packages took 0.106
+[2017.09.04-17.20.29:668][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.09.04-17.20.29:744][725]LogSavePackage: Save=70.79ms
+[2017.09.04-17.20.29:744][725]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/ThirdPersonCharacterB5421C3C411712A6F6D573A737E6DB35.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.09.04-17.20.29:747][725]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.09.04-17.22.35:692][ 29]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_76' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:698][ 29]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_78' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:701][ 29]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_80' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:730][ 30]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_82' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:732][ 30]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_84' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:735][ 30]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_86' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:760][ 31]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_88' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:781][ 32]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_90' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:803][ 33]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_92' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:824][ 34]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_94' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:827][ 34]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_96' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:850][ 35]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_98' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:852][ 35]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_100' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:856][ 35]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_102' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:875][ 36]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_104' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:878][ 36]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_106' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:904][ 37]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_108' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:931][ 38]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_110' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:955][ 39]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_112' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:976][ 40]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_114' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:997][ 41]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_116' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.35:999][ 41]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_118' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:000][ 41]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_120' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:001][ 41]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_122' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:004][ 41]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_124' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:030][ 42]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_126' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:033][ 42]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_128' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:053][ 43]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_130' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:056][ 43]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_132' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:074][ 44]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_134' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:094][ 45]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_136' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:114][ 46]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_138' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:134][ 47]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_140' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:153][ 48]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_142' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:156][ 48]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_144' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:174][ 49]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_146' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:175][ 49]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_148' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:176][ 49]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_150' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:179][ 49]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_152' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:197][ 50]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_154' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:198][ 50]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_156' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:201][ 50]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_158' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:218][ 51]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_160' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:221][ 51]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_162' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:239][ 52]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_164' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:242][ 52]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_166' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:261][ 53]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_168' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:281][ 54]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_170' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:300][ 55]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_172' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:320][ 56]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_174' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:339][ 57]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_176' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:358][ 58]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_178' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:377][ 59]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_180' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:396][ 60]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_182' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:398][ 60]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_184' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:417][ 61]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_186' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:420][ 61]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_188' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:438][ 62]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_190' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:441][ 62]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_192' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:460][ 63]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_194' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:463][ 63]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_196' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:482][ 64]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_198' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:485][ 64]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_200' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:504][ 65]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_202' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:524][ 66]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_204' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:544][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_206' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:562][ 68]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_208' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:563][ 68]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_210' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:566][ 68]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_212' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:585][ 69]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_214' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:588][ 69]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_216' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:607][ 70]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_218' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:610][ 70]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_220' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:629][ 71]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_222' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:631][ 71]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_224' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:649][ 72]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_226' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:651][ 72]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_228' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:654][ 72]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_230' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:673][ 73]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_232' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:693][ 74]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_234' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:713][ 75]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_236' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:733][ 76]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_238' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:753][ 77]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_240' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:773][ 78]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_242' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:793][ 79]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_244' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:812][ 80]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_246' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:833][ 81]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_248' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:852][ 82]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_250' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:872][ 83]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_252' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.22.36:891][ 84]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_254' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.02:439][403]LogSlate: Took 0.063095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.04-17.23.11:368][831]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_76' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:369][831]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_258' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:372][831]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_260' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:396][832]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_262' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:415][833]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_264' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:435][834]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_266' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:455][835]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_268' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:475][836]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_270' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:494][837]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_272' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:514][838]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_274' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:533][839]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_276' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:553][840]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_278' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:573][841]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_280' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:592][842]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_282' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:612][843]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_284' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:632][844]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_286' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:652][845]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_288' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:672][846]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_290' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:691][847]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_292' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:711][848]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_294' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:730][849]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_296' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:751][850]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_298' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:770][851]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_300' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:788][852]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_302' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:790][852]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_304' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:791][852]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_306' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:793][852]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_308' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:794][852]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_310' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:796][852]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_312' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:814][853]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_314' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:817][853]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_316' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:835][854]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_318' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:838][854]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_320' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:857][855]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_322' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:877][856]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_324' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:896][857]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_326' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:916][858]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_328' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:936][859]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_330' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:955][860]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_332' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:975][861]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_334' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.11:995][862]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_336' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.12:014][863]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_338' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.12:033][864]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_340' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.12:053][865]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_342' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.12:072][866]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_344' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.12:091][867]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_346' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.12:111][868]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_348' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.12:130][869]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_350' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.04-17.23.55:809][ 11]BlueprintLog: New page: Compile HUD
+[2017.09.04-17.23.56:620][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/HUD.uasset" SILENT=true
+[2017.09.04-17.23.56:635][ 34]LogSavePackage: Save=13.85ms
+[2017.09.04-17.23.56:635][ 34]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/HUDAD458B2F44F48FF9DF4DDB87CD7519D9.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/HUD.uasset'
+[2017.09.04-17.23.56:638][ 34]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/HUD.uasset
+[2017.09.04-17.24.03:885][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Battle_areana" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.04-17.24.04:085][472]LogSavePackage: Save=171.50ms
+[2017.09.04-17.24.04:085][472]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Battle_areana05C8F867456CCB8EA4FEEA96E370DEC4.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap'
+[2017.09.04-17.24.04:089][472]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana.umap
+[2017.09.04-17.24.04:197][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Battle_areana_BuiltData" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana_BuiltData.uasset" SILENT=true
+[2017.09.04-17.24.04:212][472]LogSavePackage: Save=8.78ms
+[2017.09.04-17.24.04:212][472]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Battle_areana_BuiltData40EA18274BBB1EFA12B51C9F3B261A97.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana_BuiltData.uasset'
+[2017.09.04-17.24.04:213][472]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/Maps/Battle_areana_BuiltData.uasset
+[2017.09.04-17.24.06:595][718]SourceControl: fatal: E:/Unreal Engine/UE_4.17/Engine/Content/: 'E:/Unreal Engine/UE_4.17/Engine/Content/' is outside repository
+[2017.09.04-17.24.17:039][718]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.09.04-17.24.17:263][718]SourceControl: [master 6cf1d36] updating hud
+[2017.09.04-17.24.17:263][718]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
+[2017.09.04-17.24.17:263][718]SourceControl:  create mode 100644 Content/HUD.uasset
+[2017.09.04-17.24.17:263][718]SourceControl:  create mode 100644 Content/Main_Menu.uasset
+[2017.09.04-17.24.17:263][718]SourceControl:  rewrite Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset (91%)
+[2017.09.04-17.24.17:276][718]SourceControl: Commited [master 6cf1d36] updating hud.
+[2017.09.04-17.24.26:600][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pause_Menu" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/Pause_Menu.uasset" SILENT=true
+[2017.09.04-17.24.26:610][300]LogSavePackage: Save=8.00ms
+[2017.09.04-17.24.26:610][300]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Pause_Menu7982A2DE4EC02ED263DA0BB9F51962F9.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/Pause_Menu.uasset'
+[2017.09.04-17.24.26:613][300]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/Pause_Menu.uasset
+[2017.09.04-17.24.26:779][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/Sand" FILE="C:/Unreal Medevil bash/Medieval-Bash/Content/StarterContent/Materials/Sand.uasset" SILENT=true
+[2017.09.04-17.24.26:793][300]LogSavePackage: Save=12.05ms
+[2017.09.04-17.24.26:793][300]LogSavePackage: Moving 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Sand6FCDB0FC44D0FC7992745FB1A7144E31.tmp' to 'C:/Unreal Medevil bash/Medieval-Bash/Content/StarterContent/Materials/Sand.uasset'
+[2017.09.04-17.24.26:796][300]LogSavePackage: Display: Finished SavePackage C:/Unreal Medevil bash/Medieval-Bash/Content/StarterContent/Materials/Sand.uasset
+[2017.09.04-17.24.27:350][301]Cmd: QUIT_EDITOR
+[2017.09.04-17.24.27:728][301]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.04-17.24.27:770][301]LogExit: Preparing to exit.
+[2017.09.04-17.24.28:720][301]LogExit: Editor shut down
+[2017.09.04-17.24.28:724][301]LogExit: Transaction tracking system shut down
+[2017.09.04-17.24.28:943][301]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.04-17.24.28:944][301]LogDirectoryWatcher: A directory notification for 'C:/Unreal Medevil bash/Medieval-Bash/Content/' was aborted.
+[2017.09.04-17.24.28:944][301]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.04-17.24.28:944][301]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.04-17.24.28:944][301]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.04-17.24.30:306][301]LogExit: Object subsystem successfully closed.
+[2017.09.04-17.24.30:553][301]LogD3D11RHI: Shutdown
+[2017.09.04-17.24.30:563][301]LogD3D11RHI: CleanupD3DDevice
+[2017.09.04-17.24.30:748][301]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.04-17.24.31:641][301]LogModuleManager: Shutting down and abandoning module SequencerWidgets (538)
+[2017.09.04-17.24.31:641][301]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.09.04-17.24.31:641][301]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.09.04-17.24.31:695][301]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2017.09.04-17.24.31:695][301]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.04-17.24.31:695][301]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.04-17.24.31:706][301]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.04-17.24.31:715][301]LogDirectoryWatcher: A directory notification for 'E:/Unreal Engine/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.04-17.24.31:740][301]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.04-17.24.31:740][301]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.04-17.24.31:740][301]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.04-17.24.31:748][301]LogDirectoryWatcher: A directory notification for 'C:/Unreal Medevil bash/Medieval-Bash/Content/Collections/' was aborted.
+[2017.09.04-17.24.31:748][301]LogDirectoryWatcher: A directory notification for 'C:/Unreal Medevil bash/Medieval-Bash/Content/Developers/Robbie/Collections/' was aborted.
+[2017.09.04-17.24.31:748][301]LogDirectoryWatcher: A directory notification for 'C:/Unreal Medevil bash/Medieval-Bash/Saved/Collections/' was aborted.
+[2017.09.04-17.24.31:748][301]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.04-17.24.31:753][301]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.04-17.24.31:753][301]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.04-17.24.31:759][301]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.04-17.24.31:759][301]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.04-17.24.31:759][301]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.04-17.24.31:759][301]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.04-17.24.31:759][301]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.04-17.24.31:759][301]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.04-17.24.31:768][301]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.04-17.24.31:768][301]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.04-17.24.31:768][301]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.04-17.24.31:773][301]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.04-17.24.31:781][301]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.04-17.24.31:802][301]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.04-17.24.31:825][301]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.04-17.24.31:842][301]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.04-17.24.31:842][301]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.04-17.24.31:842][301]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.04-17.24.31:842][301]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.04-17.24.31:843][301]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.04-17.24.31:856][301]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.04-17.24.31:858][301]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.04-17.24.31:894][301]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.04-17.24.31:905][301]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.04-17.24.31:905][301]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.04-17.24.31:905][301]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.04-17.24.31:905][301]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.04-17.24.31:953][301]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.04-17.24.31:954][301]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.04-17.24.31:954][301]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.04-17.24.31:954][301]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.04-17.24.31:967][301]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.04-17.24.31:988][301]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.04-17.24.31:988][301]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.04-17.24.32:013][301]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.04-17.24.32:013][301]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.04-17.24.32:021][301]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.04-17.24.32:030][301]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.04-17.24.32:030][301]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.04-17.24.32:030][301]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.04-17.24.32:030][301]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.04-17.24.32:048][301]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.04-17.24.32:048][301]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.04-17.24.32:048][301]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.04-17.24.32:048][301]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.04-17.24.32:048][301]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.04-17.24.32:049][301]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.04-17.24.32:065][301]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.04-17.24.32:075][301]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.04-17.24.32:078][301]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.04-17.24.32:087][301]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.04-17.24.32:140][301]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.04-17.24.32:163][301]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.04-17.24.32:186][301]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.04-17.24.32:210][301]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.04-17.24.32:210][301]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.04-17.24.32:228][301]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.04-17.24.32:229][301]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.04-17.24.32:255][301]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.04-17.24.32:255][301]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.04-17.24.32:267][301]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.04-17.24.32:294][301]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.04-17.24.32:295][301]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.04-17.24.32:295][301]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.04-17.24.32:309][301]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.04-17.24.32:319][301]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.04-17.24.32:329][301]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.04-17.24.32:339][301]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.04-17.24.32:339][301]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.04-17.24.32:339][301]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.04-17.24.32:339][301]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.04-17.24.32:339][301]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.04-17.24.32:364][301]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.04-17.24.32:365][301]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.04-17.24.32:365][301]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.04-17.24.32:365][301]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.04-17.24.32:365][301]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.04-17.24.32:365][301]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.04-17.24.32:365][301]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.04-17.24.32:372][301]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.04-17.24.32:380][301]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.04-17.24.32:384][301]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.04-17.24.32:415][301]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.04-17.24.32:423][301]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.04-17.24.32:423][301]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.04-17.24.32:423][301]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.04-17.24.32:423][301]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.04-17.24.32:435][301]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.04-17.24.32:435][301]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.04-17.24.32:435][301]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.04-17.24.32:439][301]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.04-17.24.32:439][301]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.04-17.24.32:439][301]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.04-17.24.32:457][301]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.04-17.24.32:457][301]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.04-17.24.32:470][301]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.04-17.24.32:470][301]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.04-17.24.32:470][301]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.04-17.24.32:470][301]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.04-17.24.32:470][301]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.04-17.24.32:480][301]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.04-17.24.32:508][301]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.04-17.24.32:521][301]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.04-17.24.32:537][301]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.04-17.24.32:537][301]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.04-17.24.32:560][301]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.04-17.24.32:579][301]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.04-17.24.32:591][301]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.04-17.24.32:591][301]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.04-17.24.32:591][301]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.04-17.24.32:591][301]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.04-17.24.32:591][301]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.04-17.24.32:602][301]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.04-17.24.32:607][301]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.04-17.24.32:613][301]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.04-17.24.32:627][301]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.04-17.24.32:627][301]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.04-17.24.32:671][301]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.04-17.24.32:671][301]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.04-17.24.32:671][301]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.04-17.24.32:671][301]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.04-17.24.32:671][301]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.04-17.24.32:671][301]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.04-17.24.32:671][301]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.04-17.24.32:695][301]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.04-17.24.32:796][301]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.04-17.24.32:903][301]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.04-17.24.32:912][301]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.04-17.24.32:912][301]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.04-17.24.32:912][301]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.04-17.24.32:920][301]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.04-17.24.32:921][301]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.04-17.24.32:921][301]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.04-17.24.32:921][301]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.04-17.24.32:937][301]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.04-17.24.32:956][301]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.04-17.24.32:966][301]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.04-17.24.32:966][301]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.04-17.24.32:980][301]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.04-17.24.33:015][301]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.04-17.24.33:015][301]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.04-17.24.33:015][301]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.04-17.24.33:016][301]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.04-17.24.33:029][301]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.04-17.24.33:036][301]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.04-17.24.33:036][301]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.04-17.24.33:055][301]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.04-17.24.33:055][301]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.04-17.24.33:066][301]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.04-17.24.33:066][301]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.04-17.24.33:066][301]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.04-17.24.33:067][301]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.04-17.24.33:067][301]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.04-17.24.33:067][301]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.04-17.24.33:104][301]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.04-17.24.33:104][301]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.04-17.24.33:106][301]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.04-17.24.33:106][301]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.04-17.24.33:106][301]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.04-17.24.33:106][301]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.04-17.24.33:106][301]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.04-17.24.33:106][301]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.04-17.24.33:106][301]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.04-17.24.33:106][301]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.04-17.24.33:106][301]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.04-17.24.33:129][301]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.04-17.24.33:141][301]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.04-17.24.33:141][301]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.04-17.24.33:147][301]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.04-17.24.33:147][301]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.04-17.24.33:161][301]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.04-17.24.33:177][301]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.04-17.24.33:178][301]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.04-17.24.33:186][301]LogDerivedDataCache: Shutdown
+[2017.09.04-17.24.33:186][301]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.04-17.24.33:186][301]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.04-17.24.33:202][301]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.04-17.24.33:212][301]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.04-17.24.33:220][301]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.04-17.24.33:233][301]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.04-17.24.33:256][301]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.04-17.24.33:256][301]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.04-17.24.33:256][301]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.04-17.24.33:262][301]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.04-17.24.33:270][301]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.04-17.24.33:271][301]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.04-17.24.33:283][301]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.04-17.24.33:283][301]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.04-17.24.33:283][301]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.04-17.24.33:283][301]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.04-17.24.33:313][301]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.04-17.24.33:333][301]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.04-17.24.33:333][301]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.04-17.24.33:338][301]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5D365144-4F8A-642F-6580-FBBDC8AC7F3F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=9283f5a747a7d8fa77ca7d8927d16ef1%7Cc7ee7518ba254189b7d2dc13474def39%7C08485130-3dd0-4995-9521-c36738e0f567&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.04-17.24.33:365][301]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.04-17.24.33:374][301]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.04-17.24.33:381][301]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.04-17.24.33:381][301]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.04-17.24.33:429][301]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.04-17.24.33:435][301]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.04-17.24.33:435][301]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.04-17.24.33:435][301]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.04-17.24.33:451][301]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.04-17.24.33:458][301]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.04-17.24.33:458][301]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.04-17.24.33:460][301]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.04-17.24.33:460][301]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.04-17.24.33:480][301]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.04-17.24.33:480][301]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.04-17.24.33:496][301]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.04-17.24.33:496][301]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.04-17.24.33:507][301]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.04-17.24.33:523][301]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.04-17.24.33:551][301]LogExit: Exiting.
+[2017.09.04-17.24.33:557][301]Log file closed, 09/04/17 12:24:33
